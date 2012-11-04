@@ -5,6 +5,7 @@ Plugins
 - [snipMate](http://www.vim.org/scripts/script.php?script_id=2540) (0.83)
 - [Sparkup](https://github.com/rstacruz/sparkup) (2009-12-05)
 - [surround.vim](http://www.vim.org/scripts/script.php?script_id=1697) (1.90)
+- [vim-liquid](https://github.com/tpope/vim-liquid) (90b9205012)
 
 Color Schemes
 -------------
