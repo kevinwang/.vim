@@ -13,3 +13,5 @@ set expandtab
 
 autocmd FileType ruby setlocal shiftwidth=2 softtabstop=2
 autocmd FileType eruby setlocal shiftwidth=2 softtabstop=2
+
+command Markdown new | set ft=html | execute 'r !~/.vim/Markdown.pl #' | 1d
