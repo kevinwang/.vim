@@ -2,6 +2,7 @@ Plugins
 -------
 - [NERD Commenter](http://www.vim.org/scripts/script.php?script_id=1218) (2.3.0)
 - [NERD tree](http://www.vim.org/scripts/script.php?script_id=1658) (4.2.0)
+- [Powerline](https://github.com/Lokaltog/vim-powerline) (09c0cea859)
 - [snipMate](http://www.vim.org/scripts/script.php?script_id=2540) (0.83)
 - [Sparkup](https://github.com/rstacruz/sparkup) (2009-12-05)
 - [surround.vim](http://www.vim.org/scripts/script.php?script_id=1697) (1.90)
