@@ -1,5 +1,6 @@
 Plugins
 -------
+- [fugitive.vim](http://www.vim.org/scripts/script.php?script_id=2975) (1.2)
 - [NERD Commenter](http://www.vim.org/scripts/script.php?script_id=1218) (2.3.0)
 - [NERD tree](http://www.vim.org/scripts/script.php?script_id=1658) (4.2.0)
 - [Powerline](https://github.com/Lokaltog/vim-powerline) (09c0cea859)
