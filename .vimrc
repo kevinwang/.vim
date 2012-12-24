@@ -20,3 +20,4 @@ command Trigraphs s/#/??=/g | s/\\/??\//g | s/^/??'/g | s/\[/??(/g | s/\]/??)/g 
 let g:Powerline_symbols = 'fancy'
 set laststatus=2
 set t_Co=256
+colorscheme wombat256mod

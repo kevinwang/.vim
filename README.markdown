@@ -12,6 +12,7 @@ Plugins
 Color Schemes
 -------------
 - [Wombat](http://dengmao.wordpress.com/2007/01/22/vim-color-scheme-wombat/)
+- [wombat256mod](http://www.vim.org/scripts/script.php?script_id=2465) (2.0mod)
 
 Don't forget to copy configuration files to your home directory:
 
