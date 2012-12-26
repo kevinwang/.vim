@@ -1,12 +1,13 @@
 Plugins
 -------
-- [fugitive.vim](http://www.vim.org/scripts/script.php?script_id=2975) (1.2)
-- [NERD Commenter](http://www.vim.org/scripts/script.php?script_id=1218) (2.3.0)
-- [NERD tree](http://www.vim.org/scripts/script.php?script_id=1658) (4.2.0)
+- [fugitive.vim](https://github.com/tpope/vim-fugitive) (v1.2)
+- [NERD Commenter](https://github.com/scrooloose/nerdcommenter) (2.3.0)
+- [NERD tree](https://github.com/scrooloose/nerdtree) (4.2.0)
+- [pathogen.vim](https://github.com/tpope/vim-pathogen) (v2.0)
 - [Powerline](https://github.com/Lokaltog/vim-powerline) (09c0cea859)
-- [snipMate](http://www.vim.org/scripts/script.php?script_id=2540) (0.83)
-- [Sparkup](https://github.com/rstacruz/sparkup) (2009-12-05)
-- [surround.vim](http://www.vim.org/scripts/script.php?script_id=1697) (1.90)
+- [snipMate](https://github.com/msanders/snipmate.vim) (f5a75d075d)
+- [Sparkup](https://github.com/rstacruz/sparkup) (5041a10515)
+- [surround.vim](https://github.com/tpope/vim-surround) (v1.90)
 - [vim-liquid](https://github.com/tpope/vim-liquid) (90b9205012)
 
 Color Schemes
