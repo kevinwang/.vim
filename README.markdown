@@ -8,6 +8,7 @@ Plugins
 - [snipMate](https://github.com/msanders/snipmate.vim) (f5a75d075d)
 - [Sparkup](https://github.com/rstacruz/sparkup) (5041a10515)
 - [surround.vim](https://github.com/tpope/vim-surround) (v1.90)
+- [vim-less](https://github.com/groenewege/vim-less) (0223dcdf0f)
 - [vim-liquid](https://github.com/tpope/vim-liquid) (90b9205012)
 
 Color Schemes
