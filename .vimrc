@@ -14,6 +14,8 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 
+let mapleader=","
+
 autocmd FileType ruby setlocal shiftwidth=2 softtabstop=2
 autocmd FileType eruby setlocal shiftwidth=2 softtabstop=2
 
