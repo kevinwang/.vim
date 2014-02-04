@@ -28,3 +28,5 @@ let g:Powerline_symbols = 'fancy'
 set laststatus=2
 set t_Co=256
 colorscheme wombat256mod
+
+set mouse=a
