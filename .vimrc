@@ -4,6 +4,7 @@ call pathogen#infect()
 filetype plugin indent on
 syntax enable
 set number
+set cursorline
 
 set hlsearch
 set incsearch
