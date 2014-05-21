@@ -34,3 +34,6 @@
 [submodule "bundle/vim-jsx"]
 	path = bundle/vim-jsx
 	url = git@github.com:mxw/vim-jsx.git
+[submodule "bundle/mustache"]
+	path = bundle/mustache
+	url = git@github.com:mustache/vim-mustache-handlebars.git
