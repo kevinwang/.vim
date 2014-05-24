@@ -1,15 +1,15 @@
 Plugins
 -------
-- [fugitive.vim](https://github.com/tpope/vim-fugitive) (v1.2)
-- [NERD Commenter](https://github.com/scrooloose/nerdcommenter) (2.3.0)
-- [NERD tree](https://github.com/scrooloose/nerdtree) (4.2.0)
-- [pathogen.vim](https://github.com/tpope/vim-pathogen) (v2.0)
-- [Powerline](https://github.com/Lokaltog/vim-powerline) (09c0cea859)
-- [snipMate](https://github.com/msanders/snipmate.vim) (f5a75d075d)
-- [Sparkup](https://github.com/rstacruz/sparkup) (5041a10515)
-- [surround.vim](https://github.com/tpope/vim-surround) (v1.90)
-- [vim-less](https://github.com/groenewege/vim-less) (0223dcdf0f)
-- [vim-liquid](https://github.com/tpope/vim-liquid) (90b9205012)
+- [fugitive.vim](https://github.com/tpope/vim-fugitive)
+- [NERD Commenter](https://github.com/scrooloose/nerdcommenter)
+- [NERD tree](https://github.com/scrooloose/nerdtree)
+- [pathogen.vim](https://github.com/tpope/vim-pathogen)
+- [Powerline](https://github.com/Lokaltog/vim-powerline)
+- [snipMate](https://github.com/msanders/snipmate.vim)
+- [Sparkup](https://github.com/rstacruz/sparkup)
+- [surround.vim](https://github.com/tpope/vim-surround)
+- [vim-less](https://github.com/groenewege/vim-less)
+- [vim-liquid](https://github.com/tpope/vim-liquid)
 
 Color Schemes
 -------------
