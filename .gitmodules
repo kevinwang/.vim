@@ -34,3 +34,6 @@
 [submodule "bundle/mustache"]
 	path = bundle/mustache
 	url = https://github.com/mustache/vim-mustache-handlebars.git
+[submodule "bundle/vim-jade"]
+	path = bundle/vim-jade
+	url = https://github.com/digitaltoad/vim-jade.git
