@@ -22,6 +22,7 @@ noremap <Leader>n :NERDTreeToggle<CR>
 
 autocmd FileType ruby setlocal shiftwidth=2 softtabstop=2
 autocmd FileType eruby setlocal shiftwidth=2 softtabstop=2
+autocmd FileType jade setlocal shiftwidth=2 softtabstop=2
 
 " For CS 233
 autocmd FileType asm setlocal softtabstop=0 noexpandtab
