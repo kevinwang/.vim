@@ -27,7 +27,7 @@ autocmd FileType jade setlocal shiftwidth=2 softtabstop=2
 " For CS 233
 autocmd FileType asm setlocal softtabstop=0 noexpandtab
 
-command Markdown new | set ft=html | execute 'r !~/.vim/Markdown.pl #' | 1d
+command Markdown new | set ft=html | execute 'r !~/.vim/Markdown.pl ' . shellescape(expand('#')) | 1d
 command Trigraphs %s/#/??=/ge | %s/\\/??\//ge | %s/\^/??'/ge | %s/\[/??(/ge | %s/\]/??)/ge | %s/|/??!/ge | %s/{/??</ge | %s/}/??>/ge | %s/\~/??-/ge
 
 let g:Powerline_symbols = 'fancy'
