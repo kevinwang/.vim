@@ -41,3 +41,6 @@ if $PVIM != 1
 endif
 
 set mouse=a
+
+" Fix syntax highlighting for long files
+autocmd BufEnter * :syntax sync fromstart
