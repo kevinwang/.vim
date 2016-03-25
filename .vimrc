@@ -30,7 +30,8 @@ autocmd FileType asm setlocal softtabstop=0 noexpandtab
 command Markdown new | set ft=html | execute 'r !~/.vim/Markdown.pl ' . shellescape(expand('#')) | 1d
 command Trigraphs %s/#/??=/ge | %s/\\/??\//ge | %s/\^/??'/ge | %s/\[/??(/ge | %s/\]/??)/ge | %s/|/??!/ge | %s/{/??</ge | %s/}/??>/ge | %s/\~/??-/ge
 
-let g:Powerline_symbols = 'fancy'
+" Statusline and colorscheme
+let g:airline_powerline_fonts = 1
 set laststatus=2
 set t_Co=256
 
