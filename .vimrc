@@ -44,3 +44,5 @@ set mouse=a
 
 " Fix syntax highlighting for long files
 autocmd BufEnter * :syntax sync fromstart
+
+let g:ctrlp_custom_ignore = 'node_modules\|venv'
