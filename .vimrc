@@ -36,7 +36,10 @@ set laststatus=2
 set t_Co=256
 
 " Presentation Vim
-if $PVIM != 1
+if $PVIM == 1
+    set background=light
+    colorscheme solarized
+else
     colorscheme wombat256mod
 endif
 
