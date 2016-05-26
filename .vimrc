@@ -19,6 +19,7 @@ set expandtab
 let mapleader=","
 
 noremap <Leader>n :NERDTreeToggle<CR>
+noremap <Leader>m :TagbarToggle<CR>
 
 autocmd FileType ruby setlocal shiftwidth=2 softtabstop=2
 autocmd FileType eruby setlocal shiftwidth=2 softtabstop=2
@@ -55,3 +56,6 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+let g:syntastic_go_checkers = ['golint', 'govet', 'errcheck']
+let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
