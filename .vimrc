@@ -1,6 +1,11 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
+" Performance optimizations for tmux
+set ttyfast
+set ttyscroll=3
+set lazyredraw
+
 filetype plugin indent on
 syntax enable
 set number
