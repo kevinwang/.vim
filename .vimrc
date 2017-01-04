@@ -13,7 +13,7 @@ set cursorline
 
 set hlsearch
 set incsearch
-nnoremap <silent> <C-l> :nohlsearch<CR><C-l>
+nnoremap <silent> <C-l> :noh<CR>:pc<CR><C-l>
 
 set backspace=2
 
