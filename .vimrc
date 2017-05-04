@@ -21,6 +21,8 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 
+set printoptions=paper:letter
+
 let mapleader=","
 
 noremap <Leader>n :NERDTreeToggle<CR>
