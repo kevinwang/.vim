@@ -67,3 +67,6 @@
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "bundle/salt-vim"]
+	path = bundle/salt-vim
+	url = https://github.com/saltstack/salt-vim.git
