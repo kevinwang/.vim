@@ -58,3 +58,5 @@ set mouse=a
 autocmd BufEnter * :syntax sync fromstart
 
 let g:ctrlp_custom_ignore = 'node_modules\|venv\|MathJax'
+
+autocmd BufWritePost *.py call Flake8()
