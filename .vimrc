@@ -36,6 +36,8 @@ autocmd FileType go setlocal shiftwidth=0 softtabstop=0 noexpandtab
 " For CS 233
 autocmd FileType asm setlocal shiftwidth=0 softtabstop=0 noexpandtab
 
+autocmd BufNewFile,BufRead *.groovy.flow setfiletype groovy
+
 command Markdown new | set ft=html | execute 'r !~/.vim/Markdown.pl ' . shellescape(expand('#')) | 1d
 command Trigraphs %s/#/??=/ge | %s/\\/??\//ge | %s/\^/??'/ge | %s/\[/??(/ge | %s/\]/??)/ge | %s/|/??!/ge | %s/{/??</ge | %s/}/??>/ge | %s/\~/??-/ge
 
