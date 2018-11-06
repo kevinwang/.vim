@@ -60,5 +60,6 @@ set mouse=a
 autocmd BufEnter * :syntax sync fromstart
 
 let g:ctrlp_custom_ignore = 'node_modules\|venv\|MathJax'
+let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
 autocmd BufWritePost *.py call Flake8()
