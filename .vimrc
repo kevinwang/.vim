@@ -56,6 +56,7 @@ else
 endif
 
 set mouse=a
+set ttymouse=sgr
 
 " Fix syntax highlighting for long files
 autocmd BufEnter * :syntax sync fromstart
