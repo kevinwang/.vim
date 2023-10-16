@@ -23,6 +23,8 @@ set expandtab
 
 set printoptions=paper:letter
 
+set timeoutlen=1000 ttimeoutlen=0
+
 let mapleader=","
 
 noremap <Leader>n :NERDTreeToggle<CR>
