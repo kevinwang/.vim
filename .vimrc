@@ -48,6 +48,12 @@ let g:airline_powerline_fonts = 1
 set laststatus=2
 set t_Co=256
 
+autocmd ColorScheme * highlight! link SignColumn LineNr
+autocmd ColorScheme * highlight GitGutterAdd    guifg=#009900 ctermfg=2
+autocmd ColorScheme * highlight GitGutterChange guifg=#bbbb00 ctermfg=3
+autocmd ColorScheme * highlight GitGutterDelete guifg=#ff2222 ctermfg=1
+let g:gitgutter_set_sign_backgrounds = 1
+
 " Presentation Vim
 if $PVIM == 1
     set background=light
