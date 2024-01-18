@@ -34,7 +34,8 @@ autocmd FileType ruby setlocal shiftwidth=2 softtabstop=2
 autocmd FileType eruby setlocal shiftwidth=2 softtabstop=2
 autocmd FileType jade setlocal shiftwidth=2 softtabstop=2
 autocmd FileType yaml setlocal shiftwidth=2 softtabstop=2
-autocmd FileType go setlocal shiftwidth=0 softtabstop=0 noexpandtab
+autocmd FileType go setlocal shiftwidth=0 softtabstop=0 tabstop=4 noexpandtab
+autocmd BufNewFile,BufRead *.go.tmpl setlocal shiftwidth=0 softtabstop=0 tabstop=4 noexpandtab
 autocmd FileType tf setlocal shiftwidth=2 softtabstop=2
 
 " For CS 233
